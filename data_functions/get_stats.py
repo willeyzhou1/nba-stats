@@ -14,3 +14,4 @@ def get_stats():
         return table.prettify()
     except Exception as e:
         return f"An error occurred: {e}"
+
